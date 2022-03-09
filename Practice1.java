@@ -50,7 +50,7 @@ public class Practice1 {
 		BirthMonth.sendKeys("June");
 		
 		WebElement BirthYear = driver.findElement(By.xpath("//select[@title='Year']"));
-		BirthYear.sendKeys("1990");
+		BirthYear.sendKeys("1997");
 		
 		WebElement Gender = driver.findElement(By.xpath("//input[@value='2']"));
 		Gender.click();
@@ -59,13 +59,6 @@ public class Practice1 {
 		SubmitInfo.click();
 		
 		System.out.println("SignUp Sucessfully");
-		//button[@type='submit']
-		
-		
-		
-		//input[@id='u_0_l_mD']
-		
-		
 		
 		Thread.sleep(4000);
 		driver.close();
